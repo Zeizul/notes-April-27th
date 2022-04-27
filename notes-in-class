@@ -1,0 +1,33 @@
+static positioning is the default positioning
+relative positioning positions the element relatvie to the elements default position
+fixed positioning positions the element relative to the viewpoint in a fixed location
+absolute positioning positions the element relative to the nearest positioned ancestor 
+
+#content {
+  border: solid 2px blue;
+  color: blue;
+  position: relative;
+  left: 20px;
+  top:10px;
+ }
+<div>Before</div>
+<div id="content">Content</div>
+<div>After</div>
+
+z-index property is used to specify a relative distance that orders the appearance of elements
+A truthy value is a non-Boolean value that evaluates to true in a Boolean context
+A falsy value is a non-Boolean value that evaluates to false in a Boolean context.
+
+if (undefined) = false
+if (999) = true
+if (0) = false
+if ("") = false
+if (" ") = true
+if ("false") = true
+if (myArray) = true
+
+break statement stops executing a case's statements and causes the statement immediately following the switch statement to execute
+function call, causes the function's statements to execute. argument is a value provided to a function's parameter during a function call
+Anonymous functions are often used with arrays and event handlers, discussed elsewhere in this material
+ function expression is identical to a function declaration, except the function name may be omitted
+  variable declared inside a function has local scope
